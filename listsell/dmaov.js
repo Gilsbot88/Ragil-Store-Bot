@@ -1,11 +1,11 @@
 module.exports.dmaov =
-`_Hai Kak Saya KuzaStore*
+`_Hai Kak Saya Ragil Store Bot*
 _Berikut List Untuk Diamond AOV Ya Kak_
 
-● 40   💎 Rp9.950
-● 90   💎 Rp19.700
-● 230  💎 Rp48.950
-● 470  💎 Rp97.700
-● 1430 💎 Rp292.700
+● 40   💎 Rp11.950
+● 90   💎 Rp20.700
+● 230  💎 Rp49.950
+● 470  💎 Rp98.700
+● 1430 💎 Rp295.700
 
 _Selengkapnya Silahkan Chat Ke Owner Ya Kak_`
