@@ -1,10 +1,10 @@
 exports.dmml =
-`*_Hai Kak Saya KuzaStore_*
+`*_Hai Kak Saya Ragil Store Bot_*
 _Berikut List Untuk Diamond MobileLegends Ya Kak_
 
-● 11   💎 Rp3.000
+● 11   💎 Rp10.000
 ● 50   💎 Rp15.000
-● 150  💎 Rp45.000
+● 150  💎 Rp48.000
 ● 250  💎 Rp75.000
 ● 500  💎 Rp149.000
 ● 1000 💎 Rp299.000
