@@ -1,4 +1,4 @@
-module.exports.dmff =`*_Hai Kak Saya KuzaStore_*
+module.exports.dmff =`*_Hai Kak Saya Ragil Store Bot_*
 _Berikut List Untuk Diamond FreeFire Ya Kak_
 
 ● 70   💎 Rp10.000
