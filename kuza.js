@@ -95,7 +95,7 @@ const simple = require('./lib/simple.js')
 let botname = '*_｢ Ragil Store Bot 0.1 ｣ 冬_*' //NAMA BOT
 let lolkey = 'isi'
 let zekskey = 'NXRu7zmcmyWTn0YGNzIV0gTFgoP' //Ganti Pake Api Lu Sendiri Biar Limitnya Gak Cepet Abis , Login Di zeks.me Untuk Mendapatkan Api Gratis
-let ownername = '*_｢ AbilGanz ✘ ｣_*' //NAMA OWNER
+let ownername = '*_｢ Ragil owner ✘ ｣_*' //NAMA OWNER
 let owner = '6283136890848' // NOMOR OWNER
 let symbol = '*🦅*'
 let faketeks = `*_｢ Ragil Store Bot 0.1 ｣ 冬_*` 
@@ -128,11 +128,11 @@ const command = body.slice(1).trim().split(/ +/).shift().toLowerCase()
 const args = body.trim().split(/ +/).slice(1)
 const isCmd = body.startsWith(prefix)
 const q = args.join(' ')
-const Verived = "0@s.whatsapp.net"
-const ytabilbotz = "6282293295376@s.whatsapp.net"
+const Verived = "6283136890848@s.whatsapp.net"
+const ytabilbotz = "6283136890848@s.whatsapp.net"
 const txt = mek.message.conversation
 const botNumber = kuza.user.jid
-const ownerNumber = [`${owner}@s.whatsapp.net`, `6282293295376@s.whatsapp.net`, `6282293295376@s.whatsapp.net`, `6282316153393@s.whatsapp.net`, `6282293271747@s.whatsapp.net`]
+const ownerNumber = [`${owner}@s.whatsapp.net`, `623136890848@s.whatsapp.net`, `6283136890848@s.whatsapp.net`, `623136890848@s.whatsapp.net`, `6283136890848@s.whatsapp.net`]
 const isGroup = from.endsWith('@g.us')
 const sender = isGroup ? mek.participant : mek.key.remoteJid
 const totalchat = await kuza.chats.all()
@@ -871,7 +871,7 @@ ${symbol} ${prefix}closegc
 ${symbol} ${prefix}tagall
 ${symbol} ${prefix}hidetag
 
-*_Created By AbilGanz_*`)
+*_Created By Ragil Store Bot_*`)
 break
 
 case 'storemenu':
@@ -887,7 +887,7 @@ ${symbol} ${prefix}payment
 ${symbol} ${prefix}id
 ${symbol} ${prefix}sewabot
 
-*_Created By AbilGanz_*`)
+*_Created By Ragil Store Bot_*`)
 break
 
 case 'stickermenu':
@@ -900,7 +900,7 @@ ${symbol} ${prefix}patrick
 ${symbol} ${prefix}gawgura
 ${symbol} ${prefix}stickeranime
 
-*_Created By AbilGanz_*`)
+*_Created By Ragil Store Bot_*`)
 break
 
 case 'downloadmenu':
@@ -910,7 +910,7 @@ ${symbol} ${prefix}ytsearch
 ${symbol} ${prefix}tiktokmusic
 ${symbol} ${prefix}pinterest
 
-*_Created By AbilGanz_*`)
+*_Created By Ragil Store Bot_*`)
 break
 
 case 'othermenu':
@@ -926,7 +926,7 @@ ${symbol} ${prefix}groupbot
 ${symbol} ${prefix}runtime
 ${symbol} ${prefix}speed
 
-*_Created By AbilGanz_*`)
+*_Created By Ragil Store Bot_*`)
 break
 
 case 'ownermenu':
@@ -940,7 +940,7 @@ ${symbol} ${prefix}upswaudio
 ${symbol} ${prefix}upswvideo
 ${symbol} ${prefix}upswimage
 
-*_Created By AbilGanz_*`)
+*_Created By Ragil Store Bot_*`)
 break
 
 case 'upswteks':
@@ -954,7 +954,7 @@ break
 
 case 'upswsticker':
 reply(mess.wait)
-if (!isOwner) return reply('LU BUKAN OWNER GBLOK')
+if (!isOwner) return reply('LU BUKAN OWNER GOBLOK')
 if (!isQuotedSticker) return reply('Reply stikernya!')
 if (isMedia && !mek.message.videoMessage || isQuotedSticker) {
 const encmedia = isQuotedSticker ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
@@ -966,7 +966,7 @@ break
 
 case 'upswaudio':
 reply(mess.wait)
-if (!isOwner) return reply('LU BUKAN OWNER GBLOK')
+if (!isOwner) return reply('LU BUKAN OWNER GOBLOK')
 if (!isQuotedAudio) return reply('Reply audionya!')
 if (isMedia && !mek.message.videoMessage || isQuotedAudio) {
 const encmedia = isQuotedAudio ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
@@ -978,7 +978,7 @@ break
 
 case 'upswvideo':
 reply(mess.wait)
-if (!isOwner) return reply('LU BUKAN OWNER GBLOK')
+if (!isOwner) return reply('LU BUKAN OWNER GOBLOK')
 var konti = body.slice(11)
 reply(mess.wait)
 var enmediap = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
@@ -990,7 +990,7 @@ break
 
 case 'upswimage':
 reply(mess.wait)
-if (!isOwner) return reply('LU BUKAN OWNER GBLOK')
+if (!isOwner) return reply('LU BUKAN OWNER GOBLOK')
 var teksyy = body.slice(11)
 reply(mess.wait)
 enmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
@@ -1020,7 +1020,7 @@ case 'bc':
              for (let _ of anu) {
              kuza.sendMessage(_.jid, 
 			{"contentText": `*「 BROADCAST 」*\n\n${body.slice(4)}`,
-			"footerText": 'kuzaBot by AbilBotz',
+			"footerText": 'kuzaBot by Ragil Store Bot',
 			"buttons": [
 			{"buttonId": `${prefix}owner`,
 			"buttonText": {"displayText": "OWNER"
@@ -1235,11 +1235,11 @@ case 'sewabot':
  Nih Kak Listnya
  
  *Permanen*
- Rp 15.000
+ Rp 30.000
  *Perbulan*
- Rp 10.000
+ Rp 15.000
  *Perminggu*
- Rp 5.000
+ Rp 10.000
  
  *Note : Beli Tinggal Beli Kak Fitur Cek Sendiri Gk Usah Banyak Nanya Atau Basa Basi Soalnya Owner Sibuk 🙏*`,
  sections: [
@@ -1323,7 +1323,7 @@ case 'sc':
 case 'script':
 case 'sourcecode':
 ini_text = `Script
-https://youtube.com/channel/UCJPqI5eVhKPXPL2V8y6pIDA`
+Mau ngapain ke menu ini cok?`
 reply(ini_text)
 break
 
