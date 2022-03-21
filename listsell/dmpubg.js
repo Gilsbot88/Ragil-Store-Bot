@@ -1,5 +1,5 @@
 module.exports.dmpubg =
-`*_Hai Kak Saya KuzaStore_*
+`*_Hai Kak Saya Ragil Store Bot_*
 _Berikut List Untuk Diamond Pubg Ya Kak_
 
 ● 250 💎 Rp45.550
