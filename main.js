@@ -51,9 +51,9 @@ nocache('./main.js', module => console.log(`${module} Telah Di Perbarui!`))
 const starts = async (kuza = new WAConnection()) => {
     kuza.logger.level = 'warn'
     kuza.version = [2,2143,3]
-    kuza.browserDescription = ['kuzaBot','Chrome', '3.0']
+    kuza.browserDescription = ['Ragil Store Bot','Chrome', '3.0']
     console.log(banner)
-console.log(color('🌀[ BASE BY ABIL ]'))
+console.log(color('🌀[ BASE BY Ragil ]'))
     kuza.on('qr', () => {
         console.log(color('[ SCAN ]','red'), color('SCAN QRNYA'))
     })
@@ -63,7 +63,7 @@ start('2', 'Menghubungkan')
 })
 kuza.on('open', () => {
 success('2', 'CONNECT TO YOUR WHATSAPP WEB')
-teks = `https://chat.whatsapp.com/CS4ESARec5o476nHesGIDt` 
+teks = `https://chat.whatsapp.com/I3uvRkj0vGF0yexwy1OnUv` 
  kuza.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
  console.log(color('🛑'), color('SUCCESSFUL TO JOINED TO DEVELOPER GRUP')) 
 })
